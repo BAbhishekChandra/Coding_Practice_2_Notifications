@@ -1,0 +1,198 @@
+/* Write your code here. */
+
+* {
+  margin: 0px;
+}
+
+.main-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #0f172a;
+}
+
+.notification-container {
+  margin-top: 20px;
+}
+
+.information-container {
+  background-color: #0b69ff;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  border-radius: 4px;
+  padding: 20px 100px 20px 20px;
+  margin: 20px;
+}
+
+.success-container {
+  background-color: #2dca73;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  border-radius: 4px;
+  padding: 20px 100px 20px 20px;
+  margin: 20px;
+}
+
+.warning-container {
+  background-color: #ffb800;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  border-radius: 4px;
+  padding: 20px 100px 20px 20px;
+  margin: 20px;
+}
+
+.error-container {
+  background-color: #ff0b37;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  border-radius: 4px;
+  padding: 20px 100px 20px 20px;
+  margin: 20px;
+}
+
+.icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 20px;
+}
+
+.message {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 18px;
+  }
+  .notification-container {
+    margin-top: 10px;
+  }
+
+  .information-container {
+    background-color: #0b69ff;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 1px;
+    padding: 8px 40px 8px 8px;
+    margin: 8px;
+  }
+
+  .success-container {
+    background-color: #2dca73;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 1px;
+    padding: 8px 40px 8px 8px;
+    margin: 8px;
+  }
+
+  .warning-container {
+    background-color: #ffb800;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 1px;
+    padding: 8px 40px 8px 8px;
+    margin: 8px;
+  }
+
+  .error-container {
+    background-color: #ff0b37;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 1px;
+    padding: 8px 40px 8px 8px;
+    margin: 8px;
+  }
+
+  .icon {
+    height: 7px;
+    width: 7px;
+    margin-right: 8px;
+  }
+
+  .message {
+    font-family: "Roboto";
+    font-size: 8px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+  .notification-container {
+    margin-top: 20px;
+  }
+
+  .information-container {
+    background-color: #0b69ff;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 6px;
+    padding: 25px 120px 25px 30px;
+    margin: 20px;
+  }
+
+  .success-container {
+    background-color: #2dca73;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 6px;
+    padding: 25px 120px 25px 30px;
+    margin: 20px;
+  }
+
+  .warning-container {
+    background-color: #ffb800;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 6px;
+    padding: 25px 120px 25px 30px;
+    margin: 20px;
+  }
+
+  .error-container {
+    background-color: #ff0b37;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    border-radius: 6px;
+    padding: 25px 120px 25px 30px;
+    margin: 20px;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 25px;
+  }
+
+  .message {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
